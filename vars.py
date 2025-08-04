@@ -2,14 +2,14 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "20619533"))
+API_HASH = os.environ.get("API_HASH", "5893568858a096b7373c1970ba05e296")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8146069942:AAHUml7dOsNQg2B0vEDy7-bXWAzc5pugP7A")
 
-CREDIT = os.environ.get("CREDIT", "𓍯𝙎𝙪𝙟𝙖𝙡⚝")
+CREDIT = os.environ.get("CREDIT", "SONIC⚝")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "UGxPRO")
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Prakash8307:<db_password>@cluster0.2i5tzvf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -17,7 +17,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7114926879"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "7114926879").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = "https://t.me/+W-Q51EuLf2QwYTl"
+PREMIUM_CHANNEL = "https://t.me/SONICDMBOT"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.fbcd.co/products/original/ug-logo-designs-2-acbfbf7b80e16df4c902a34d1caf148e7e1feca736e21075114990e62294f3ac.jpg").split()))
 
